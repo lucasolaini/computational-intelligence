@@ -3,7 +3,7 @@ Nim
 
 This script implements two evalution startegies, namely $(1+\lambda)$ and $(1,\lambda)$, to find the best strategy to win at [Nim](https://en.wikipedia.org/wiki/Nim).
 
-The game supports two versions: *normal game* and *misère play*. In *normal game* the player who takes the last object wins. Instead, if Nim is played as a *misère game*, the player to take the last object loses.
+The game supports two versions: *normal game* and *misère play*. In *normal game* the player who takes the last object wins. Instead, if Nim is played as a *misère game*, the player who takes the last object loses.
 
 Both versions of the game, along with the optimal strategies to win, are implemented.
 
