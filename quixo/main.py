@@ -180,7 +180,6 @@ class MinmaxPlayer(Player):
 
         return best_move[0], best_move[1]
 
-
     def minmax(self, game: Game, depth: int, strategy: int, current_player_idx: int, last_value: int) -> int:
 
         if self.stopping_criteria == 'full':
